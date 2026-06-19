@@ -430,13 +430,10 @@ window.contentMap = {
           `,
     rehaul: `
         <br>
-        <audio controls loop>
-        <source src="Images/Assets/Sound/Trammell Starks - Beach Frolic.mp3" type="audio/ogg">
-        audio tag fucked up me thinks
-        </audio> 
+        <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/26zpuebVBX6819B5IceJiU?utm_source=generator&si=cd45ed6ffee94b56" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
           <br> 
-            <p2> <span id = "cent"> psst this audio tag does work</p2>
-            <h1>NEW SITE NEW ME</h1><br>
+            <p2> <span id = "cent"> spotify auto reccomedned thisand i liekd it and i dont feel like looking for songs to add ehre so...</p2>
+            <h1>hello Neocities!</h1><br>
             <p1> currently undergoing a bunch of changes to this site, big enough to were im prob gonna keep the legacy version up, overall structure is likley to stay the same</p1><br>
             <p1> oh yeah all the old blogs are gone bc i hated them, also i dont wanna talk about metnal health here to much (it got to venty last time)</p1><br>
             <p1> last mental health update you're ever gonna get is:</p1><br>
