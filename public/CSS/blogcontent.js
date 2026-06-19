@@ -445,7 +445,7 @@ window.contentMap = {
             <p1> anyway you're prob gonna see alot of changes here and there, ill maybe (try to) catalouge all of them in theese blogs, or maybe im js gonna make a seperate site changelog thing idk, but if you wanna looka t that js look at the freaking github repo</p1><br>
             <p1> one improvement i made wass now all the blog data is stored in its own java file!! WOW i was keeping it dirty inside of the html file this entire time and it bloated the amount of lines like crazy</p1><br>
             <p1> im currenty writing on line 447 as of now</p1><br>
-            <img src="https://tenor.com/view/cat-gif-5065080256988658828" width="300px" class="bimg" alt="Stupid">
+            <img src="https://media.tenor.com/RkrHqGSnPIwAAAAd/cat.gif" width="300px" class="bimg" alt="Stupid">
             <h3>Cat gif</h3>
             <p1> you may not notice that many changes as of yet but i SWEAR this place is gonna look diffrent in like a week....</p1>
             <br>
