@@ -1,0 +1,57 @@
+    .header  {
+        border: 10px outset orange;
+        background-color: black;
+        text-align: center;
+        color:orange;
+        height:100px;
+    }
+    .content {
+        border: 10px outset orange;
+        background-color: black;
+        text-align: center;
+        color:orange;
+    }
+    .footer {
+        border: 10px outset orange;
+        background-color: black;
+        text-align: center;
+        color:orange;
+        height:50px;
+    }
+    h2 {
+        font-family:"Comic Sans MS";
+        font-size:20px;
+    }
+    h3{
+        font-family:"Comic Sans MS";
+        font-size:20px;
+    }
+    h6 {
+        font-family:"Comic Sans MS";
+        font-size:1px;
+    }
+         
+    a {
+        font-family:"Comic Sans MS";    
+        font-size:15px;
+    }
+    .Left {
+        text-align:left;
+    }
+    body {
+    background-color:black;
+    }
+    img {
+    border: 1px solid #ddd; /* Gray border */
+    border-radius: 4px;  /* Rounded border */
+    padding: 5px; /* Some padding */
+    width: 400px; /* Set a small width */
+    }
+    p2{
+        font-family:"Comic Sans MS";
+        font-size:15px;      
+    }
+    p3{
+    font-family:"Comic Sans MS";
+        font-size:15px;        
+    }

@@ -1,0 +1,217 @@
+ .container {
+      display: flex-start;
+      width: 600px;
+      height: 600px;
+      background-color: rgb(0, 0, 0);
+      overflow: hidden;
+      overflow-y: auto;
+      border: 10px outset rgb(255, 255, 255);
+      
+    }
+    body {
+        margin: 0;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url("../Images/BGS/Blackroses.gif");
+        background-repeat: repeat;       
+        background-position: center;    
+        background-size: 200px;          
+        font-family: "Comic Sans MS";
+    }
+    h1 {
+      font-size: 35px;
+      color: rgb(216, 216, 216);
+      text-align: center;
+    }
+    #cent { display: flex; justify-content: center; }
+    p1 {
+      font-size: 15px;
+      color: rgb(216, 216, 216);
+      text-align: center;
+    }
+    .AiFun {
+      font-family: Papyrus, "Lucida Handwriting", cursive;
+      font-size: 15px;
+      color: rgb(255, 0, 102) !important;
+    }
+    p2 {
+      font-size: 12px;
+      color: rgba(216, 216, 216, 0.53);
+      text-align: center;
+      
+    }
+    h4 {
+      font-size: 15px;
+      color: rgba(216, 216, 216, 0.404);
+      text-align: center;
+    }
+    li {
+      font-size: 15px;
+      color: rgb(216, 216, 216);
+      
+    }
+    .bimg{
+          display: inline-block;
+          margin: 10px;
+          border: 10px outset rgb(77, 77, 77);
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+
+        }
+        .bvid{
+          display: inline-block;
+          margin: 10px;
+          border: 10px outset rgb(142, 142, 142);
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+
+        }
+        audio {
+          display: block;
+          margin: 0 auto;
+          width: 300px;
+          height: 40px;
+        }
+
+        audio::-webkit-media-controls-panel {
+         background-color: #222;
+        }
+
+        audio::-webkit-media-controls-play-button {
+          background-color: #79046f;
+          border-radius: 50%;
+        }
+
+        audio::-webkit-media-controls-current-time-display,
+        audio::-webkit-media-controls-time-remaining-display {
+          color: #fff;
+        }
+    h2 {
+      font-size: 20px;
+      color: rgb(216, 216, 216);
+      text-align: center;
+    }
+
+    h3 {
+      font-size: 17px;
+      color: rgb(216, 216, 216);
+      text-align: center;
+    }
+    .center {
+      text-align: center;
+    }
+    .sidebar {
+      width: 150px;
+      height: 600px;
+      background-color: rgb(37, 37, 37);
+      color: rgb(0, 0, 0);
+      display: flex;
+      flex-direction: column;
+        border: 10px outset rgb(169, 169, 169);
+    }
+    .header {
+       border: 10px outset rgb(169, 169, 169);
+        background-color: rgb(37, 37, 37);
+        text-align: center;
+        color:orange;
+        height:75px;
+    }
+    .TopBar {
+    display: flex;  
+    border: 10px outset rgb(169, 169, 169);
+    background-color: rgb(37, 37, 37);
+    text-align: start;
+    height: 50px;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+     .Bcontainer {
+      width: auto;
+      height: 417px;
+      overflow: hidden;
+      overflow-y: auto;
+      background-color: rgb(37, 37, 37);
+      border: 10px outset rgb(169, 169, 169);
+      
+    }
+    img{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    video{
+      margin-left: auto;
+      margin-right: auto;
+    }
+        /* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(51, 51, 51);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #000000;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ffffff;
+}
+/* Default link color */
+a {
+  color: rgb(255, 255, 255);
+  
+}
+
+/* Hover state */
+a:hover {
+  color: rgb(225, 39, 254);
+  text-decoration: underline; 
+}
+/* Visited link color */
+a:visited {
+  color: rgb(188, 188, 188);
+}
+
+/* Active link color */
+a:active {
+  color: rgb(255, 0, 93);
+}
+      #Sidimg{
+          display: inline-block;
+          margin: 270px;
+          display: block;
+          align-content: center;
+          margin-left: auto;
+          margin-right: auto;
+      }
+.swapbutton {
+  font-family: "Comic Sans MS";
+  display: inline-block;
+  margin-right: 6px;   /* optional spacing */
+  background-color: rgb(165, 165, 165);
+  border: 5px outset rgb(55, 54, 55);
+  color: rgb(0, 0, 0);
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.swapbutton:hover {
+  cursor: pointer;
+  font-size: 17px;
+}
+.swapbutton:active {
+  cursor: pointer;
+  font-size: 19px;
+  
+}

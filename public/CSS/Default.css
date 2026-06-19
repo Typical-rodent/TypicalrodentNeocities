@@ -1,0 +1,151 @@
+ .container {
+      display: flex-start;
+      width: 600px;
+      height: 600px;
+      background-color: rgb(106, 0, 89);
+      overflow: hidden;
+      overflow-y: auto;
+      border: 10px outset rgb(143, 17, 136);
+      
+    }
+    body {
+        margin: 0;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url("../Images/BGS/PurpleGliter.gif");
+        background-repeat: repeat;       
+        background-position: center;    
+        background-size: 200px;          
+        font-family: "Comic Sans MS";
+    }
+    h1 {
+      font-size: 35px;
+      color: rgb(255, 191, 252);
+      text-align: center;
+    }
+    p1 {
+      font-size: 15px;
+      color: rgb(255, 191, 252);
+      text-align: center;
+    }
+    p2 {
+      font-size: 20px;
+      color: rgb(255, 191, 252);
+      text-align: center;
+    }
+    h4 {
+      font-size: 15px;
+      color: rgb(255, 191, 252);
+      text-align: center;
+    }
+    li {
+      font-size: 15px;
+      color: rgb(255, 191, 252);
+      
+    }
+    .bimg{
+          display: inline-block;
+          margin: 10px;
+          border: 10px outset rgb(200, 64, 193);
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+
+        }
+    h2 {
+      font-size: 20px;
+      color: rgb(255, 191, 252);
+      text-align: center;
+    }
+    h3 {
+      font-size: 17px;
+      color: rgb(255, 191, 252);
+      text-align: center;
+    }
+    .center {
+      text-align: center;
+    }
+    .sidebar {
+      width: 150px;
+      height: 600px;
+      background-color: rgb(130, 3, 109);
+      color: rgb(0, 0, 0);
+      display: flex;
+      flex-direction: column;
+        border: 10px outset rgb(143, 17, 136);
+    }
+    .header {
+       border: 10px outset rgb(127, 14, 122);
+        background-color: rgb(141, 41, 131);
+        text-align: center;
+        color:orange;
+        height:100px;
+    }
+    .TopBar {
+        border: 10px outset rgb(127, 14, 122);
+        background-color: rgb(141, 41, 131);
+        text-align: center;
+        height:50px;
+        overflow-x: auto;
+    }
+    img{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+        /* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(143, 17, 136);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #b045c9;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+/* Default link color */
+a {
+  color: rgb(255, 255, 255);
+  
+}
+
+/* Hover state */
+a:hover {
+  color: rgb(225, 39, 254);
+  text-decoration: underline; 
+}
+/* Visited link color */
+a:visited {
+  color: rgb(188, 188, 188);
+}
+
+/* Active link color */
+a:active {
+  color: rgb(255, 0, 93);
+}
+      #Sidimg{
+          display: inline-block;
+          margin: 270px;
+          display: block;
+          align-content: center;
+          margin-left: auto;
+          margin-right: auto;
+      }
+table, th, td {
+  border: 10px outset rgb(127, 14, 122);
+}
+th,td {
+  margin: auto;
+  text-align: left;
+}

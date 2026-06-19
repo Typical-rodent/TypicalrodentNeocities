@@ -1,0 +1,110 @@
+    body {
+        margin: 0;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        display: flex-start;
+        background-image: url("../Images/NIKOSHRINE/NikoYAPPING.gif");
+        background-size: 100px;      
+        background-repeat: repeat;       
+        background-position: center; 
+        font-family: "Comic Sans MS";        
+    }
+    h1 {
+        font-size:40px;
+        color:white;
+    }
+    table, th, td {
+     text-align: center;
+     border: 10px solid purple;
+     font-size: 20px;
+        color: white;
+    }
+    th {
+    background-color: #04AA6D;
+    color: white;
+    }
+    li {
+      font-size: 15px;
+      color: rgb(255, 191, 252);
+      text-align: center;
+   
+    }
+     .container {
+      display: flex-start;
+      width: 750px;
+      height: 600px;
+      background-color: rgb(106, 0, 89);
+      overflow: hidden;
+      overflow-y: auto;
+    border: 10px outset rgb(143, 17, 136);
+          
+        } 
+        img{
+          display: inline-block;
+          width: 200px;
+          height: 200px;
+          margin: 10px;
+          border: 10px outset rgb(200, 64, 193);
+        }
+        tr:hover {background-color: rgb(152, 2, 92);}
+        th:hover {background-color: rgb(152, 2, 92);}
+        .header {
+         border: 10px outset rgb(127, 14, 122);
+         background-image: url("../Images/NIKOSHRINE/Stylizednikogifthing.gif");
+         background-size: auto;      
+         background-repeat: repeat;       
+         background-position: center; 
+         font-size: 40px;
+         text-align: center;
+         color:rgb(102, 0, 180);
+         height: 200px
+        }
+                /* width */
+    ::-webkit-scrollbar {
+      width: 10px;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+  background: rgb(143, 17, 136);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #b045c9;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+/* Default link color */
+a {
+  color: rgb(255, 255, 255);
+  
+}
+
+/* Hover state */
+a:hover {
+  color: rgb(225, 39, 254);
+  text-decoration: underline; 
+}
+/* Visited link color */
+a:visited {
+  color: rgb(188, 188, 188);
+}
+
+/* Active link color */
+a:active {
+  color: rgb(255, 0, 93);
+}
+      #Sidimg{
+          display: inline-block;
+          margin: 270px;
+          display: block;
+          align-content: center;
+          margin-left: auto;
+          margin-right: auto;
+      }

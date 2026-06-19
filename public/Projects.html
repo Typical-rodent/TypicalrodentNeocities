@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+    <link rel="stylesheet" type="text/css" href="CSS/Projects.css">
+    <link rel="icon" type="image/x-icon" href="Images/Bulb.ico">
+    <style>
+      /*extra shit for hte fish blah blah blah*/
+    #background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1; /* Layershit btw*/
+  }
+
+  .scrolling-image {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%); 
+    height: 75px;
+    animation: scrollAcross 20s linear forwards;
+  }
+
+  @keyframes scrollAcross {
+    from { left: -200px; }
+    to { left: 100%; }  
+  }
+     
+
+    </style>
+    <script src="CSS/scripts.js"></script>
+    <title>Me website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html>
+   
+  <div id="background"></div>
+      <div class="sidebar">
+        <img src="Images/Index.gif" alt="Whoops" style="width:150px;height:75px;" class="Sidimg">  
+    <ul>
+      <li><a href="index.html">Homepage</a></li>
+      <li><a href="Blog.html">My Blog</a></li>  
+      <li><a href="Projects.html">Projects</a></li>      
+      <li><a href="ArchivePage.html">Archives</a></li>
+      <li><a href="NikoShrine.html">Niko Shrine</a></li>
+      <li><a href="https://typicalrodent.atabook.org">Guestbook</a></li>
+      <li><a href="Extra.html">Extra stuff</a></li>
+    </ul>
+        <figure id="Sidimg"class ="center">
+      <img src="Images/tripwire.webp" alt="Whoops" style="width:150px;height:75px;" class="Sidimg" onclick="resizeImage(this)">  
+    </figure>
+</div>
+<div class="container">
+  <div class="header">
+  <img width="200px"  src="Images/ProjectHdr.gif" alt=""class="center">
+  </div>
+  <h1 class="outlined-text">UnDer ConStRucTIONnNN!!!! cOme baCk lAtERr :3c</h1>
+ <h1>wip number 2</h1>
+  <br>
+    <ul>
+      <li>tuff</li>
+      <li>this si an list</li>
+      <li>👀</li>
+      <li> list but longerergergergergergerg</li> </li>
+      <li>100 cigarettes</li>
+    </ul>
+    <span class="center" ><p1>flooprs</p1></span>
+    <span class="center"> <br><a href="Archives/Josephs  Fire fight.html">heres a game i made at 4 in the morning that i have no where else to place right now besides here </a></span>
+<br>
+</div>
+<script>
+  // diddnt work inside of the scripts.js file (also isnt used by other pages so)
+  const images = [
+    "Images/FIsh/azureeirngerg.gif",
+    "Images/FIsh/BluenblKc.gif",
+    "Images/FIsh/dudeidkthisoneisgeeked.gif",
+    "Images/FIsh/funnyguy.gif",
+    "Images/FIsh/Gold.gif",
+    "Images/FIsh/Greenone.gif",
+    "Images/FIsh/Letstakealook.gif",
+    "Images/FIsh/Shark1.gif",
+    "Images/FIsh/Somefish.gif",
+    "Images/FIsh/YourNext.png",
+    "Images/NIKOSHRINE/niko56.gif"
+  ];
+
+  const background = document.getElementById("background");
+
+  function addRandomImage() {
+    const img = document.createElement("img");
+    img.src = images[Math.floor(Math.random() * images.length)];
+    img.className = "scrolling-image";
+
+    // Random vertical position
+    img.style.top = Math.floor(Math.random() * 80 + 10) + "%";
+
+    background.appendChild(img);
+
+    // Remove image after animation ends
+    img.addEventListener("animationend", () => {
+      background.removeChild(img);
+    });
+  }
+
+  // Add a new random image every 3 seconds
+  setInterval(addRandomImage, 2000);
+</script>
+
+</html>

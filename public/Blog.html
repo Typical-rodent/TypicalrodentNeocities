@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+    <link rel="stylesheet" type="text/css" href="CSS/Blog.css">
+    <link rel="icon" type="image/x-icon" href="Images/Bulb.ico">
+    <script src="CSS/scripts.js"></script>
+    <script src="CSS/blogcontent.js"></script>
+    <title>Me blog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html> 
+      <div class="sidebar">
+        <img src="Images/bIndex.gif" alt="Whoops" style="width:125px;height:53px;margin-top: 20px" class="Sidimg">  
+    <ul>
+      <li><a href="index.html">Homepage</a></li>
+      <li><a href="Blog.html">My Blog</a></li>  
+      <li><a href="Projects.html">Projects</a></li>      
+      <li><a href="ArchivePage.html">Archives</a></li>
+      <li><a href="NikoShrine.html">Niko Shrine</a></li>
+      <li><a href="https://typicalrodent.atabook.org">Guestbook</a></li>
+      <li><a href="Extra.html">Extra stuff</a></li>
+    </ul>
+        <figure id="Sidimg"class ="center">
+      <img src="Images/tripwire.webp" alt="Whoops" style="width:150px;height:75px;" class="Sidimg" onclick="resizeImage(this)">  
+    </figure>
+</div>
+  <div class="container">
+  <div class="header">
+  <img width="210px"  src="Images/Bhdr.gif" alt=""class="center">
+  </div>
+  <div class="TopBar">
+    <button class="swapbutton" data-content="Rehaul">6/18/26 REHAUL!!</button>
+  </div>
+  <div id="bcontainer" class="Bcontainer">
+    <h1>click aon a blog</h1>
+  </div>
+  
+</div>
+<script>
+
+document.querySelectorAll(".swapbutton").forEach(btn => {
+    btn.addEventListener("click", () => {
+        const key = btn.dataset.content;
+        console.log("Clicked", key);
+        document.getElementById("bcontainer").innerHTML = contentMap[key];
+    });
+});
+</script>
+</html>
