@@ -427,5 +427,28 @@ window.contentMap = {
           <p1> so like you should play burnout when it comes out yeah teah u should ahuh eyah</p1>
           <br>
           <p1> ok thats it get out</p1>
-          `,                  
+          `,
+    rehaul: `
+        <br>
+        <audio controls loop>
+        <source src="Images/Assets/Sound/Trammell Starks - Beach Frolic.mp3" type="audio/ogg">
+        audio tag fucked up me thinks
+        </audio> 
+          <br> 
+            <p2> <span id = "cent"> psst this audio tag does work</p2>
+            <h1>NEW SITE NEW ME</h1><br>
+            <p1> currently undergoing a bunch of changes to this site, big enough to were im prob gonna keep the legacy version up, overall structure is likley to stay the same</p1><br>
+            <p1> oh yeah all the old blogs are gone bc i hated them, also i dont wanna talk about metnal health here to much (it got to venty last time)</p1><br>
+            <p1> last mental health update you're ever gonna get is:</p1><br>
+            <h1>I GAVE UP ON SCUICIDE!!!!!!!!</h1><br>
+            <p1>no i am not really better like at all, but you wont see me dead!!!</p1><br>
+            <p1> anyway you're prob gonna see alot of changes here and there, ill maybe (try to) catalouge all of them in theese blogs, or maybe im js gonna make a seperate site changelog thing idk, but if you wanna looka t that js look at the freaking github repo</p1><br>
+            <p1> one improvement i made wass now all the blog data is stored in its own java file!! WOW i was keeping it dirty inside of the html file this entire time and it bloated the amount of lines like crazy</p1><br>
+            <p1> im currenty writing on line 447 as of now</p1><br>
+            <img src="https://tenor.com/view/cat-gif-5065080256988658828" width="300px" class="bimg" alt="Stupid">
+            <h3>Cat gif</h3>
+            <p1> you may not notice that many changes as of yet but i SWEAR this place is gonna look diffrent in like a week....</p1>
+            <br>
+            <p1> ok thats it bye yeebyebyeb</p1>
+          `,                       
 };
