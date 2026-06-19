@@ -1,6 +1,6 @@
     // for tripwiresquishing
-    const audio = new Audio('Images/Assets/Sound/Squeak.mp3');
-    const audio2 = new Audio('Images/Assets/Sound/TDlaugh.mp3');
+    const audio = new Audio('https://typical-rodent.github.io/RodenturesLegacy/Images/Assets/Sound/Squeak.mp3');
+    const audio2 = new Audio('https://typical-rodent.github.io/RodenturesLegacy/Images/Assets/Sound/TDlaugh.mp3');
     audio2.volume = 0.3; 
     let sel = Math.floor(Math.random() * 2);
     
