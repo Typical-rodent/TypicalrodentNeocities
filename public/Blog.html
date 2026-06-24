@@ -5,6 +5,19 @@
     <script src="CSS/blogcontent.js"></script>
     <title>Home/My_Blog</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+    html {
+      filter: grayscale(0%) contrast(100%) brightness(100%);
+      transition: filter 0.5s ease-in-out;
+    }
+
+    html.scary {
+      filter:
+          grayscale(100%)
+          contrast(400%)
+          brightness(140%);
+    }
+    </style>
 <html> 
       <div class="sidebar">
         <img src="Images/bIndex.gif" alt="Whoops" style="width:125px;height:53px;margin-top: 20px" class="Sidimg">  
@@ -27,6 +40,7 @@
   </div>
   <div class="TopBar">
     <button class="swapbutton" data-content="rehaul">6/19/26 REHAUL!!</button>
+    <button class="swapbutton" data-content="Deltarune5">6/23/26 Deltarune...</button>
   </div>
   <div id="bcontainer" class="Bcontainer">
     <h1>click aon a blog</h1>
@@ -34,12 +48,20 @@
   
 </div>
 <script>
+function togglescaryeffect() {
+    document.documentElement.classList.toggle("scary");
+}
 
 document.querySelectorAll(".swapbutton").forEach(btn => {
     btn.addEventListener("click", () => {
         const key = btn.dataset.content;
         console.log("Clicked", key);
         document.getElementById("bcontainer").innerHTML = contentMap[key];
+        if (key === "Deltarune5") {
+          document.documentElement.classList.add("scary");
+        } else {
+        document.documentElement.classList.remove("scary");
+        }
     });
 });
 </script>
