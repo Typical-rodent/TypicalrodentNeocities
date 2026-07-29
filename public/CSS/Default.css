@@ -8,6 +8,15 @@
       border: 10px outset rgb(143, 17, 136);
       
     }
+  .faCont {
+    margin:auto;
+    display: flex-start;
+    height: auto;
+    width: 75vh;
+    border: 10px outset rgb(143, 17, 136);
+    overflow-y: hidden;
+    overflow-x: scroll;
+  }
     body {
         margin: 0;
         height: 100vh;
