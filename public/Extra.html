@@ -1,9 +1,45 @@
 <!DOCTYPE html>
+<html>
+<head>
     <link rel="stylesheet" type="text/css" href="CSS/Default.css">
     <link rel="icon" type="image/x-icon" href="Images/Bulb.ico">
     <script src="CSS/scripts.js"></script>
+
     <title>Extra</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+        @font-face {
+            font-family: '8bitoperator';
+            src: url(CSS/Fonts/8bitoperator_jve.ttf) format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        .EightbitFont {
+            color: white;
+            font-family: '8bitoperator', sans-serif;
+        }
+        .DeltCount {
+            background-color: black;
+            font-family: '8bitoperator', sans-serif;
+            color: white;
+            text-align: center;
+            font-size: 24px;
+            border: 5px solid rgb(255, 254, 255);
+        }
+        .stacyclone {
+          background-image: url('Images/BGS/BG_Lab_Event1.png');
+          background-size: fill;       
+          background-position: center; 
+          @import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+          font-family: 'Sour Gummy', cursive;
+         
+        }
+    </style>
+</head>
 <html> 
       <div class="sidebar">
     <img src="Images/Index.gif" alt="Whoops" style="width:150px;height:75px;" class="Sidimg"> 
@@ -25,7 +61,6 @@
   <div class="header">
   <img width="190px"  src="Images/ExtraHeader.gif" alt=""class="center">
   </div>
-    <h1>page due for rennovation!</h1>
     <h1>Contact/Socials</h1>
     <ul>
       <li>Discord is "iaskedgaming"</li>
@@ -43,6 +78,17 @@
     </ul>
     <a href="http://cooltext.com" target="_top"><img src="https://cooltext.com/images/ct_banner.gif" width="468" height="60" alt="Cool Text: Logo and Graphics Generator" /></a>
     <br>
+    <div class="DeltCount">
+      <p1 class="EightbitFont" style="font-size: 48px;" >Days since the last Deltarune Chapter:</p1>
+      <p1 id="show" class="EightbitFont" style="font-size: 48px;">yo i think it broke...</p1>
+    </div>
+    <br>
+    <div class ="stacyclone">
+      <img class ="emoji" src="Images/stacy/ENEMY_Stacy_Icon.svg" width="50px" alt="Stacy Clone">
+      <p1 id ="clone" style="font-size: 52px; color:rgb(206, 206, 206)">Stacy Clone:</p1>
+      <img class ="stacyimg" src="Images/stacy/ENEMY_Stacy_(Enemy)_Idle.gif" width="250px" alt="Stacy Clone">
+      <br>
+    </div>
     <h1>FANART CORNERRRR!!!!</h1>
     <div class="faCont">
       <span style="display: flex; gap: 15px;">
@@ -81,5 +127,29 @@
     </div>
 </div>
 
-</div>    
+</div>
+<script>
+// deltarune day counter
+var initialDate = new Date(2026, 6, 24); // June 24th 2026
+var now = Date.now();
+var difference = now - initialDate;
+var millisecondsPerDay = 24 * 60 * 60 * 1000;
+var daysSince = Math.floor(difference / millisecondsPerDay);
+
+document.getElementById('show').innerHTML = daysSince.toString();
+
+// stacy clone
+const stacyclone = localStorage.getItem("StacyClone");
+
+if (stacyclone === null || stacyclone === "") {
+  console.log('Creating new stacy clone');
+  let newclonenumber = Math.floor(Math.random() * 1000000) + 1;
+  localStorage.setItem("StacyClone", newclonenumber.toString());
+} else {
+  console.log('Preexisting clone found.');
+}
+
+  console.log("Stacy Clone#: " + stacyclone);
+  document.getElementById('clone').innerHTML = "Stacy Clone#: " + stacyclone;
+</script>      
 </html>
