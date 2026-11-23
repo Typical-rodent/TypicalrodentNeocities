@@ -215,3 +215,9 @@ a:active {
   font-size: 19px;
   
 }
+.emoji{
+          display: inline-block;
+          margin-left: 0px;
+          margin-right: 0px;
+          border: 0px;
+        }

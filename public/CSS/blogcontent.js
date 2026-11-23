@@ -480,5 +480,70 @@ window.contentMap = {
             <br>
             <imgsrc="https://tenor.com/view/mewgenics-cat-dance-event-edmund-mcmillen-gif-18160474270980018818"  width="300px" class="bimg" alt="fag">
             <br>
-            `,                            
+            `,   
+    howlongdude: `
+        <br>
+        <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/28Y75h6D286HrmUcA7jfmR?utm_source=generator&si=d87341af40c540ea" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+          <br> 
+            <p2> <span id = "cent"> Oh my mirror modulation</p2>
+          <br>
+          <p2> <span id = "cent"> Miki lowk me rn #relatable #grrmondays #faggot #killsplashdownusers </p2>  
+          <br>
+          <img src="https://media1.tenor.com/m/iIaoMXKLGmcAAAAC/miki-vocaloid.gif" width="400px" class="bimg" alt="Stupid">
+          <h1> hiiiii, its been a hot minute</h1>
+          <br>
+          <p1> yeah its been a bit since ive written one of theese hasnt it?</p1><br>
+          <p1> To be dead honest i havent had much time and also kinda forgot to make any soooo my baddddd</p1>
+          <br> 
+          <p1> i was working on lil project when i went over here to yoink some old code when i remembered this blog existed, and here i am</p1> <br>
+          <p1> also realizing now this is the first actual blog since ive migrated to neocities jesus</p1><br>
+          <p1> i guess theres shit to talk abt so might aswell, not going into #venty shit cuzz i dont fuckinf WANT TO ITS LAME IT STUPIDD ARGGGGG</p1><br>
+          <span id = "cent"> <p2> u gaf im still doing ass nothing has really improved.</p2></span>
+          <br>
+          <p1> i did make a roblos animation a week or so, i never got the chance to finish it sadlt, but here it is</p1>
+          
+          <video class = "bvid" width=auto height="200" controls>
+          <source src="https://typical-rodent.github.io/RodenturesLegacy/Images/Assets/Videos/TPMWIP.mp4" type="video/mp4">
+          </video>
+          <p1>Tu puta madre</p1><br>
+          <p1> this is the first time i usde eclipse btw #eclipsegoated #fuckmoonanimator </p1><br>
+          <p1> thats kinda it besdies like a few smaller onesssss golook onmy fucking twitter or som brah if uwanan see </p1><br>
+          <p1> theres also an inside joke game i made and might aswell link it here, it was soposed ot be for april fools, and uhmmhmhm itsnot aprilbut u can play it anyway go take it</p1>
+          <br>
+          <h1> SLUMZ GAME</h1>
+          <img src="./Images/MiscIMG/slumza.png" width="300px" class="bimg" alt="Slumz">
+          <h2><a href="https://drive.google.com/file/d/1_yIxY_i32GXvRBw8rLRykkcpnTzvWuF5/view?usp=sharing"> DOWNLOAD NOWW!!!</a></h2>
+          <span id = "cent"> <p2> yes this is an exe bearwith me its not a fuckign virus</p2></span>
+          <br>
+          <h2> twaddle 2 in the room</h2>
+          <p1> oh here ye here did you hear? Twaddle is getting a sequal!</p1>
+          <img src="./Images/MiscIMG/ylogo.png" width="150px" class="bimg" alt="Stupid">
+          <p1> the duck has been brutally massacred, and in its place a beutiful baby <img src="./Images/MiscIMG/ylogo.png" class="emoji" width="20px" alt="Stupid"> Has been born </p1>
+          <p1> you can go check it out<a href="https://iaskedgaming.github.io/Y-Twaddle2-/"> Y here</a>, its not finished at the moment but it prob will like soonish so chekc back in like 2 weeks and its prob finished</p1><br>
+          <p1> u can still look at it as of now tho theres shit onthere!!</p1><br>
+          <br>
+          <p1> there isnt that much else to talk about that istn feelings,and they kinda just summarize into "Im so fucking tired", i am tempted to talk about them but i know i wil readback on this and i WILLhate myself for writing it so</p1>
+          <p1> for future me i am opting to NOT talk about it</p1><br>
+          <br>
+          <p1> ok i js though tof non venty shit to talk about</p1><br>
+          <h2> south pakr south park ahsout karp south park</h2>
+          <p1> ive been binding a bunch of south park and also ive been playing the fraqtured but whole, HAVNT had the time to finish it buttttt me like i like yeah eyah i like </p1><br>
+          <p1> u can be a transgender 10/10 game</p1>
+          <img src="./Images/MiscIMG/professor chaos.png" width="250px" class="bimg" alt="Stupid">
+          <h2> hi goat</h2>
+          <img src="./Images/MiscIMG/raisins girls.png" width="320px" class="bimg" alt="Stupid">
+          <h2> why is craig charmed by the girls hes fucking gay </h2>
+          <br>
+          <h2> also heres my mirror modulation tierlist</h2>
+          <img src="./Images/MiscIMG/tierlist_4.png" width="400px" class="bimg" alt="Stupid">
+          <p1>i love mirror modualtitn it was so GOOOD AHSHRWHGR</p1>
+          <p1> streetcat stier cuz its awesome #weloveyouiroha</p1><br>
+          <p1> 10/10 album </p1>
+          <br>
+          <p1> anyway i ranout of things to talk about so bye bye byebye byebye</p1>
+          <img src="./Images/MiscIMG/DoodleofMEbyME.png" width="400px" class="bimg" alt="Stupid">
+
+
+
+          `,                        
 };
